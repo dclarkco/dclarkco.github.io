@@ -16,8 +16,12 @@
 	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
 	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@100;300;400;500;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+	
 	<!-- Vendor CSS Files -->
 	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
 	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,39 +49,41 @@
 <body>
 
 	<!-- ======= Mobile nav toggle button ======= -->
-	<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+	<!--<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>-->
 
 	<!-- ======= Header ======= -->
-	<header id="header">
-		<div class="d-flex flex-column">
+	<div class="d-none d-xl-block">
+		<header id="header">
+			<div class="d-flex flex-column">
 
-			<div class="profile">
-				<img src="assets/img/signature-img.jpg" alt="" class="img-fluid rounded-circle">
-				<h1 class="text-light"><a href="index.html">Dillon Clark</a></h1>
-	<!--
-				<div class="social-links mt-3 text-center">
-					<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-					<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+				<div class="profile">
+					<img src="assets/img/signature-img.jpg" alt="" class="img-fluid rounded-circle">
+
+					<div class="social-links mt-3 text-center">
+						<a href="https://github.com/dclarkco/" class="github"><i class="bx bxl-github"></i></a>
+						<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+					</div>
 				</div>
+				
+				<nav id="navbar" class="nav-menu navbar">
+					<ul>
+						<li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+						<li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+						<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+						<li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+						<li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+					</ul>
+				</nav><!-- .nav-menu -->
 			</div>
-	-->
-			<nav id="navbar" class="nav-menu navbar">
-				<ul>
-					<li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-					<li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-					<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-					<li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-					<li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-				</ul>
-			</nav><!-- .nav-menu -->
-		</div>
-	</header><!-- End Header -->
+		</header><!-- End Header -->
+	</div>
 
 	<!-- ======= Hero Section ======= -->
 	<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
 		<div class="hero-container" data-aos="fade-in">
-			<h1>Dillon Clark: </h1>
-			<p> <span class="typed" data-typed-items="UX Designer, Programmer, Data Scientist, Your next hire, ML Enthusiast, Researcher, Python Charmer, Outdoorsman, Ally, Coworker, Gamer, Artist, World Citizen, Foodie, Powder Skier, Computer Constructor, LEGO Architect, UI Enthusiast, Coffee Critic, Dungeon Master, 3D Print Designer, AI Artist, Swift Developer, Pandas Guru"></span></p>
+			<h1 class="text-shadow">Dillon</h1>
+			<h1 class="text-shadow">Clark-</h1>
+			<p> <span class="typed" data-typed-items="~$..., Data Scientist, Python Charmer, Tamer of Pandas, Pytorcher, Stable Diffuser, ChatGPT negotiator, Prompt Engineer, (Aspiring) Game Developer, SD Inpainter, Typeface affectionado, Cloud Watcher, Computer Constructor, Coffee Critic, Dungeon Master, 3D Printer"></span></p>
 		</div>
 	</section><!-- End Hero -->
 
@@ -89,41 +95,34 @@
 
 				<div class="section-title">
 					<h2>About</h2>
-							While studying at the University of Colorado, Boulder, I found passion in studying the relationship between people and design. I started in Environmental Design, drawing bridges and creating scale models of the built environment to satisfy design objectives. Architecture as a study is very inspiring, but Information Science became my avenue for creativity through data and design. I found that creating 3D and digital spaces allowed for broader reach and more rapid iteration. Since, I've graduated and begun a career in UX design and data science, striving to leave humanity more empowered and intelligent, through technology.
+						I’m a dynamic programmer and designer with a knack for melding AI with real-world applications, honed through a passion for innovation and a multi-faceted background. 
+						My journey has taken me from the bustling streets of Shanghai where I formulated a respect and admiration for the world's cultures, to informing C suite executives regarding opportunity in AI. 
+						When I'm not diving into generative AI, or refining my foundational CS knowledge, you'll find me skiing, cycling, or exploring the Colorado Rockies with my silly barge dog, always driven by a curiosity for how technology can enhance our lives. 
 				</div>
 
 				<div class="row">
 					<div class="col-lg-4" data-aos="fade-right">
-						<img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+						<img src="assets/img/profile_img.png" class="figure-img img-fluid rounded" alt="DC in a mean white suit" border-radius: 20%>
 					</div>
 					<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-						<h3>Data Scientist &amp; UX Designer</h3>
+						<h3>Data Scientist</h3>
 						<p class="font-italic">
 
 						</p>
 						<div class="row">
 							<div class="col-lg-6">
 								<ul>
-									<li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span> <a href=https://www.dclark.works>dclark.works</a> </span></li>
+									<li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span> <a href=https://github.com/dclarkco>dclarkco</a> </span></li>
 									<li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Denver CO</span></li>
-					<li><i class="bi bi-chevron-right"></i> <strong>Pronouns:</strong> <span>He/Him</span></li>
-
+									<li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BS in Information Science</span></li>
+									<li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><p><a href="mailto:d@dclark.works">d@dclark.works</a></p></span></li>
 								</ul>
 							</div>
 							<div class="col-lg-6">
 								<ul>
-									<li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BS in Information Science (2022)</span></li>
-									<li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><p><a href="mailto:d@dclark.works">d@dclark.works</a></p></span></li>
-								</ul>
+									</ul>
 							</div>
 						</div>
-						<p>
-							I want to work with a socially and environmentally sustainable company that fosters a positive working environment from the ground up. 
-						</p>
-						<p> A company that remains true to its values.
-						</p>
-						<p> A company that knows its workers are its most valuable commodity.
-						</p>
 					</div>
 				</div>
 
@@ -279,17 +278,20 @@
 
 				<div class="section-title">
 					<h2>Portfolio</h2>
-					<p>As a UX designer and data scientist, I am equipped with the tools necessary to design a better future, one project at a time. I relish in studying the shadows and aliases of real world phenomenon, reflected through data, colored by human perspectives. Throughout my work & my lifetime, I aim to never stop growing, to continuously learn and adapt. This portfolio is the story of my development as a professional.
+					<p>Throughout my work & my lifetime, I aim to never stop growing, to continuously learn and adapt. This portfolio is the story of my development as a professional.
 					</p>
 
 					<br><p>
-					<h3> Predicting Political Sentiment using AI | 2022 </h3>
-					I worked with 3 brilliant associates to help improve upon the process of assessing political
-					sentiment. For this project, we pulled historic and current google trends volume data for 200+ corporations and
-					brand names as input features to be trained against electoral outcomes for each election year going back to 2004. As a
-					product of this research, we compiled a report of corporate partisanship, as well as a per-state prediction of the
-					2022 midterms. The accuracy attained was more than sufficient, but we learned more from the complications
-					found along the way.
+					<h3> Can we discern political leanings through non-essential consumerism? SKLearn / Google Trends | 2022-2024 </h3>
+					<h6> <i class="bi bi-chevron-right"></i> Objective: </h6> Outperform traditional polling methods by utilizing consumer sentiment, consumption, and search volume data related to ~200 partisan corporations.
+					<h6> <i class="bi bi-chevron-right"></i> Methodology: </h6> Collect and clean novel datasets from two sources, Simmons consumerism dataset, and the Google Trends search volume API using Python; Requests, Pandas, and Numpy.
+					Then, research historic attempts to assess political sentiment using consumer data as a proxy, and optimize our methodology accoridngly. 
+					Perform feature engineering to combine both datasets, normalize GTrends data, partition into test-train split datasets and begin training various models. 
+					Test each model against data with and without Simmons data included, and perform feature elimination and SHAP analyses to determine the most influential corporations and public interests, per partisanship. 
+					Test classification performance, and attempt regression modelling using XGBoost to predict vote share, rather than explicit outcome.
+					<h6><i class="bi bi-chevron-right"></i> Results:</h6>Resulting classification accuracy ranged from 80% to a peak of 94% when classifying results on a per-state level using exclusively google trends data. This result outperformed polling accuracy,
+					but was limited in effectiveness in 4 swing states, mirroring the difficulties in predicting volatile election outcomes. 
+					With more data and more robust classification methods, we are confident that performance can be improved, but more work needs to be done to determine the deeper social and economic factors connecting consumerism to polical leaning.
 					<br><a href = 'assets/img/portfolio/Predicting Political Trends - Consumer Sentiment.pdf'target="_blank"> Predicting Political Trends [Paper]</a>
 					</p>
 					<a href = 'assets/img/portfolio/Predicting Elections with Google Trends.pdf'target="_blank"> Predicting Political Trends [Slidedeck]</a>
@@ -517,27 +519,9 @@
 
 				<div class="col-lg-4 col-md-6 portfolio-item filter-vis">
 						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/proto offensiverating.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a href="assets/img/portfolio/proto offensiverating.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Sketch of NBA players offensive ratings visualization"><i class="bx bx-plus"></i></a>
-							</div>
-						</div>
-					</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-vis">
-						<div class="portfolio-wrap">
 							<img src="assets/img/portfolio/offensiverating.png" class="img-fluid" alt="">
 							<div class="portfolio-links">
 								<a href="assets/img/portfolio/offensiverating.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="NBA players offensive ratings"><i class="bx bx-plus"></i></a>
-							</div>
-						</div>
-					</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-vis">
-						<div class="portfolio-wrap">
-							<img src="assets/img/portfolio/proto team defense.jpg" class="img-fluid" alt="">
-							<div class="portfolio-links">
-								<a href="assets/img/portfolio/proto team defense.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Sketch of NBA Team offense v defense visualization"><i class="bx bx-plus"></i></a>
 							</div>
 						</div>
 					</div>
